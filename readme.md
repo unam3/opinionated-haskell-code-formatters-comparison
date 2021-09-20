@@ -11,6 +11,7 @@ Scoped formatters:
 ## Methodology
 Original source file will be processed by code formatter with default options and then with options to address my personal needs.
 
+
 ## hindent
 
 - [doesn't preserve newlines](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/bdd64cc8d1791434316d4204897693dd78c9e711#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL57-R104)
@@ -22,3 +23,11 @@ Original source file will be processed by code formatter with default options an
 - [removes space between `\` and argument name in lambda](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/bdd64cc8d1791434316d4204897693dd78c9e711#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL278-R284)
 - [one space indent despite all other indentation cases in brackets on newline](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/bdd64cc8d1791434316d4204897693dd78c9e711#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aR296-R297)
 - [groups several lines into one](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/8ea2812fb3a11d7a7b8a4dda91810029fb2ba9fd#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aR167) and [original](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/8ea2812fb3a11d7a7b8a4dda91810029fb2ba9fd#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL193-L194)
+
+
+## ormolu
+
+- [doesn't preserve import groups](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL12-L41)
+- [puts Prelude import at the end from other modules](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aR43)
+- [dangling `->` in type annotations](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL51-R55)
+- [doesn't preserve two empty lines](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL225-L226)
