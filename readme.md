@@ -2,7 +2,6 @@
 
 Scoped formatters:
 
-- brittany 0.13.1.2
 - hindent 5.3.1
 - ormolu 0.1.4.1
 - fourmolu 0.3.0.0
@@ -37,6 +36,7 @@ Original source file will be processed by code formatter with default options an
 - [splits creation of value with records into several lines](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL105-R106)
 - [doesn't preserve indentation of operators in multiline expressions](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/c1ee9704a1ec5ad6c4c1940545618d744e5cf03e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL239-R246)
 
+
 ## fourmolu
 
 - [dangling `->` in type annotations](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/8b3e8f17541d04d69fc29f9124640fbe58268696#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL51-R54)
@@ -44,6 +44,7 @@ Original source file will be processed by code formatter with default options an
 - [splits creation of value with records into several lines](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/8b3e8f17541d04d69fc29f9124640fbe58268696#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL105-R106)
 - [doesn't preserve indentation of operators in multiline expressions](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/8b3e8f17541d04d69fc29f9124640fbe58268696#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL242-R247)
 
+
 ## stylish-haskell
 
-- [`list_padding: module_name` doesn't work bug?](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/commit/68e769f416af0bb951e2e2409fae66b862f1414e#diff-f163797eb9bf32d5a19d13bcb576de2cad6f0d4965f20b42e6b838436d21118aL36-R37)
+- [`list_padding` option doesn't work (bug?)](https://github.com/unam3/opinionated-haskell-code-formatters-comparison/blob/stylish-haskell/original.hs#L34-L36)
